@@ -25,7 +25,7 @@ export default class Launches extends Component {
                 if(error) console.log(error);
                     console.log(data);
                     
-                return <h1>test</h1>
+                return <h4>{data}</h4>
             }
         }
         </Query>
